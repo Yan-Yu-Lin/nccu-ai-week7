@@ -10,8 +10,8 @@ Google Colab 執行:
     !pip install openai faiss-cpu numpy gradio
 
     # 2. 下載向量資料庫
-    GDRIVE_LINK = "YOUR_GDRIVE_LINK_HERE"
-    !gdown --fuzzy {GDRIVE_LINK}
+    # 設定 GDRIVE_DOWNLOAD_URL 變數後執行
+    !gdown {GDRIVE_DOWNLOAD_URL}
     !unzip -o faiss_db.zip
 
     # 3. 設定 API key
@@ -32,7 +32,7 @@ import gradio as gr
 from typing import List, Dict, Tuple, Optional
 
 # ===== 全域設定 =====
-GDRIVE_FILE_ID = "YOUR_FILE_ID_HERE"  # 待填入
+GDRIVE_DOWNLOAD_URL = "https://drive.google.com/uc?export=download&id=1Ytey9_KM_-TcdP4A2K-krhiWXG04r3lS"
 FAISS_DB_PATH = "faiss_db"
 MAX_TOOL_ITERATIONS = 5
 
@@ -51,6 +51,7 @@ SYSTEM_PROMPT = """你是一位專業的 GPT-5 Response API 程式設計助手�
 - 提供清楚的程式碼範例
 - 解釋技術概念時用簡單易懂的方式
 - 如果不確定答案,誠實告知並建議查閱官方文件
+- 所有程式碼範例或任何與程式碼相關的內容都必須放在 code block 中,否則不易閱讀
 
 重要: 當你需要查詢 GPT-5 API 相關資料時,請使用 search_chunks 工具搜尋文件內容。"""
 
@@ -99,9 +100,9 @@ def download_and_extract_faiss(gdrive_url: Optional[str] = None):
         print("✓ 本地環境: 跳過下載,直接使用本地 faiss_db")
         return
 
-    if not gdrive_url or gdrive_url == "YOUR_GDRIVE_LINK_HERE":
+    if not gdrive_url or "YOUR_" in gdrive_url:
         print("⚠️  警告: 尚未設定 Google Drive 連結")
-        print("請在程式碼中設定 GDRIVE_FILE_ID 或傳入 gdrive_url 參數")
+        print("請在程式碼中設定 GDRIVE_DOWNLOAD_URL 變數")
         return
 
     print("⬇️  Colab 環境: 下載 faiss_db.zip...")
@@ -399,7 +400,7 @@ def main():
 
         # 2. 下載 FAISS (僅 Colab)
         print("\n[2/4] FAISS 資料庫準備")
-        download_and_extract_faiss()
+        download_and_extract_faiss(GDRIVE_DOWNLOAD_URL)
 
         # 3. 載入向量資料庫
         print("\n[3/4] 載入向量資料庫")

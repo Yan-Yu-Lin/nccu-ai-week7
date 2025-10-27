@@ -1,0 +1,10 @@
+我可以協助你學習和使用 **GPT-5 Response API**!
+
+**專長領域:**
+- Function calling 和 custom tools 的使用
+- Reasoning effort 控制 (minimal, low, medium, high)
+- Text verbosity 設定
+- Tool calling 最佳實踐
+- 程式碼範例和實作建議
+
+**智慧檢索機制:** 此助手採用 RAG (檢索增強生成) 技術,當 GPT-5 判斷需要查詢技術細節時,會主動呼叫 search_chunks 工具搜尋官方文件。並非每次都檢索,而是由模型智慧決定何時需要查詢資料!
