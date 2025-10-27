@@ -1,0 +1,72 @@
+[
+  {
+    "chunk_id": "call_fGWO0REWQwxTqjmCWZTzwb5z",
+    "text": "# 公司客服 Q&A 範例",
+    "source_file": "test_company_faq.md",
+    "chunk_index": 0,
+    "char_count": 13
+  },
+  {
+    "chunk_id": "call_16V2gCGU6YgEdtMDVp37axAY",
+    "text": "## 退款相關\n\n### Q: 如何申請退款？\nA: 您可以透過以下步驟申請退款：\n1. 登入您的帳戶\n2. 進入「訂單管理」頁面\n3. 選擇要退款的訂單\n4. 點擊「申請退款」按鈕\n5. 填寫退款原因並提交\n\n退款申請會在 3-5 個工作日內處理完成。",
+    "source_file": "test_company_faq.md",
+    "chunk_index": 1,
+    "char_count": 127
+  },
+  {
+    "chunk_id": "call_WKRF5MFL26vr3zHfRuH5i2x4",
+    "text": "### Q: 退款需要多久才能收到？\nA: 退款處理時間依支付方式而定：\n- 信用卡退款：7-14 個工作日\n- ATM 轉帳退款：3-5 個工作日\n- 超商付款退款：5-7 個工作日\n\n退款金額將退回您原本的付款帳戶。",
+    "source_file": "test_company_faq.md",
+    "chunk_index": 2,
+    "char_count": 110
+  },
+  {
+    "chunk_id": "call_ui9kjXBxRXvLzqy2utdYJrdy",
+    "text": "### Q: 可以部分退款嗎？\nA: 是的，我們支援部分退款。如果您的訂單包含多個商品，您可以選擇只退款其中幾項商品。但請注意，部分退款可能會影響原本的優惠折扣。",
+    "source_file": "test_company_faq.md",
+    "chunk_index": 3,
+    "char_count": 81
+  },
+  {
+    "chunk_id": "call_BqBIuuWniTp1OO1LigONCAjl",
+    "text": "## 配送相關\n\n### Q: 配送需要多久時間？\nA: 標準配送時間如下：\n- 台北市區：1-2 個工作日\n- 台灣本島其他地區：2-3 個工作日\n- 離島地區：3-5 個工作日\n\n急件可以選擇快速配送服務，額外收費 NT$ 100。",
+    "source_file": "test_company_faq.md",
+    "chunk_index": 4,
+    "char_count": 118
+  },
+  {
+    "chunk_id": "call_zfBa63xUjX8QPqMrAsPZAvw8",
+    "text": "### Q: 可以指定配送時間嗎？\nA: 可以的！我們提供以下配送時段：\n- 上午時段（9:00-12:00）\n- 下午時段（13:00-18:00）\n- 晚上時段（18:00-21:00）\n\n請在結帳時選擇您方便的時段。",
+    "source_file": "test_company_faq.md",
+    "chunk_index": 5,
+    "char_count": 111
+  },
+  {
+    "chunk_id": "call_gD64q0fXSWh54ZhMcQTfjfj4",
+    "text": "### Q: 如果配送地址填錯了怎麼辦？\nA: 如果訂單尚未出貨，您可以：\n1. 聯繫客服修改地址\n2. 或在訂單管理頁面自行修改\n\n如果訂單已經出貨，請聯繫客服協助處理，可能需要支付額外的配送費用。",
+    "source_file": "test_company_faq.md",
+    "chunk_index": 6,
+    "char_count": 100
+  },
+  {
+    "chunk_id": "call_g2ugVCuJbP9Wtv07QJvx6uvr",
+    "text": "## 產品相關\n\n### Q: 產品有保固嗎？\nA: 所有產品都享有以下保固：\n- 電子產品：1 年保固\n- 家電產品：2 年保固\n- 服飾配件：30 天鑑賞期\n\n保固期間內如有非人為損壞，我們提供免費維修或更換服務。",
+    "source_file": "test_company_faq.md",
+    "chunk_index": 7,
+    "char_count": 109
+  },
+  {
+    "chunk_id": "call_C5TBsUn2mCr8FpHCEoSwDIgn",
+    "text": "### Q: 如何確認產品真偽？\nA: 每個產品都有獨特的防偽標籤，您可以透過以下方式驗證：\n1. 刮開防偽標籤上的塗層\n2. 取得驗證碼\n3. 至官網「產品驗證」頁面輸入驗證碼\n4. 系統會顯示產品真偽及詳細資訊",
+    "source_file": "test_company_faq.md",
+    "chunk_index": 8,
+    "char_count": 107
+  },
+  {
+    "chunk_id": "call_xbtk4E2gRwjqIke4hrEFUNAO",
+    "text": "### Q: 可以客製化產品嗎？\nA: 部分產品支援客製化服務，包括：\n- 刻字服務\n- 顏色選擇\n- 尺寸訂製\n\n詳情請參考各產品頁面的客製化選項，或聯繫客服諮詢。",
+    "source_file": "test_company_faq.md",
+    "chunk_index": 9,
+    "char_count": 83
+  }
+]
